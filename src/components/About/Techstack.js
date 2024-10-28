@@ -16,6 +16,18 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiDocker,
+  SiMysql,
+  SiCapacitor,
+  SiPwa,
+  SiLaravel,
+  SiExpress,
+  SiStripe,
+  SiSwagger,
+  SiTypescript,
+  SiTailwindcss,
+  SiAndroid,
+  SiVite,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -23,25 +35,13 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
@@ -56,13 +56,40 @@ function Techstack() {
         <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiCapacitor />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPwa />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLaravel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiStripe />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSwagger />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAndroid />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVite />
       </Col>
     </Row>
   );
