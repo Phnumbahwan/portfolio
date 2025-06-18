@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import buyLife from "../../Assets/Projects/buyLife.png";
 import hoops from "../../Assets/Projects/hoops.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import gownRentalApp from "../../Assets/Projects/gownRentalApp.png";
+import agro from "../../Assets/Projects/agro.png";
+import wis from "../../Assets/Projects/wis.png";
 
 function Projects() {
   return (
@@ -51,6 +50,26 @@ function Projects() {
               description="This POS app, built with ReactJS and Laravel, streamlines business operations by providing comprehensive billing, employee management, inventory tracking, and reporting features. The app is designed to manage transactions efficiently, track stock levels, oversee employee activities, and generate reports for business insights."
               ghLink="https://github.com/Phnumbahwan/reactjs-laravel-pos-ui"
               demoLink="https://buy-life.marysbridal.shop/dashboard"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={agro}
+              isBlog={false}
+              title="Agro Power Plant"
+              description="Agro Pro PowerPlant is a modern web-based application built with ReactJS and ExpressJS, designed to streamline inventory management and transaction monitoring for agricultural businesses. The system offers an intuitive interface for managing stock levels, tracking product movement, and generating insightful reports to support informed business decisions."
+              demoLink="https://agropropowerplant.org/login"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wis}
+              isBlog={false}
+              title="Warehouse Inventory System"
+              description="The Warehouse Inventory System is a custom-built web application developed for a government army unit to efficiently manage military supplies, equipment, and logistical inventory across multiple storage facilities. Built with ReactJS for the frontend and Node.js (ExpressJS) for the backend, the system enhances operational visibility, security, and control over sensitive inventory assets."
+              demoLink="https://stg-warehouse.gpacturan.site/login"
             />
           </Col>
         </Row>
