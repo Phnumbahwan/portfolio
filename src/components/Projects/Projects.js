@@ -8,6 +8,7 @@ import gownRentalApp from "../../Assets/Projects/gownRentalApp.png";
 import agro from "../../Assets/Projects/agro.png";
 import wis from "../../Assets/Projects/wis.png";
 import travel from "../../Assets/Projects/travel.png";
+import resumeAnalyzer from "../../Assets/Projects/resume-analyzer.png";
 
 function Projects() {
   return (
@@ -21,6 +22,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={resumeAnalyzer}
+              isBlog={false}
+              title="Resume Analyzer"
+              description="A web application that helps job seekers land their dream job by analyzing and cleaning their resume. Upload your resume and get instant feedback — score, line-by-line rewrites, ATS-friendly rewrites, and everything you need to stand out from the competition."
+              demoLink="https://clean-your-resume.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={travel}
