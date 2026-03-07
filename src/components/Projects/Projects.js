@@ -9,6 +9,7 @@ import agro from "../../Assets/Projects/agro.png";
 import wis from "../../Assets/Projects/wis.png";
 import travel from "../../Assets/Projects/travel.png";
 import resumeAnalyzer from "../../Assets/Projects/resume-analyzer.png";
+import household from "../../Assets/Projects/household.png";
 
 function Projects() {
   return (
@@ -22,6 +23,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={household}
+              isBlog={false}
+              title="Pacturan Family Management"
+              description="A family management web application that provides a comprehensive dashboard to monitor household finances, track active users, and visualize store locations on an interactive map. Built to streamline family and household operations in one centralized platform. | Test credentials: jr@pacturan.local / password"
+              ghLink="https://github.com/Phnumbahwan/pacturan-family-management"
+              demoLink="https://lightgreen-panther-784634.hostingersite.com/login"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={resumeAnalyzer}
